@@ -1,0 +1,8 @@
+
+-- Stripe paying by credit card --
+https://dev.to/stripe/fundamentals-of-the-paymentintents-and-paymentmethods-apis-3646
+
+-- Stripe code --
+https://docs.stripe.com/checkout/quickstart
+
+P.S. Files in this directory can be viewed by the public for payment testing. Normally, it would contain saved images or files you want to share.

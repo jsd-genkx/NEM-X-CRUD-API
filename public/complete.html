@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Order Status</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="checkout.css" />
+    <script src="https://js.stripe.com/v3/"></script>
+    <script src="complete.js" defer></script>
+  </head>
+  <body>
+    <!-- Display the order status -->
+    <div id="payment-status">
+        <div id="status-icon"></div>
+        <h2 id="status-text"></h2>
+        <div id="details-table">
+          <table>
+            <tbody>
+              <tr>
+                <td class="TableLabel">id</td>
+                <td id="intent-id" class="TableContent"></td>
+              </tr>
+              <tr>
+                <td class="TableLabel">status</td>
+                <td id="intent-status" class="TableContent"></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <a id="retry-button" href="/checkout.html">Test another</a>
+    </div>
+  </body>
+</html>
